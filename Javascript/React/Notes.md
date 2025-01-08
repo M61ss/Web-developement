@@ -8,12 +8,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello World</title>
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <!-- Includes the React library -->
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <!-- Manages React elements rendering on real DOM -->
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <!-- Don't use this in production: -->
     <!-- Allows to use JSX in Javascript -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
